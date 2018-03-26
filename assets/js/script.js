@@ -19,7 +19,7 @@ $('body').on('click', '.navbar-bars', function(e) {
     $(this).css({display : "none"});
     $('.navbar-close').css({display : "block"});
     $('.menu-top').addClass('show');
-    $('.full-sect').addClass('move-down');
+    $('.container').addClass('move-down');
     $('.sl').addClass('lc');
     $('.logo').addClass('logo-bg');
     $('.logo').removeClass('logo-tr');
@@ -32,7 +32,7 @@ $('body').on('click', '.navbar-close', function(e) {
     $(this).css({display : "none"});
     $('.navbar-bars').css({display : "block"});
     $('.menu-top').removeClass('show');
-    $('.full-sect').removeClass('move-down');
+    $('.container').removeClass('move-down');
     $('.sl').removeClass('lc');
     $('.logo').removeClass('logo-bg');
     $('.logo').addClass('logo-tr');
