@@ -814,8 +814,9 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         min-height: 0;
     }
     .container{
-        min-height: 90vh;
-        max-height: 90vh;
+        min-height: calc(100vh - 60px);
+        max-height: calc(100vh - 60px);
+        padding-top: 60px !important;
     }
     #about .title-line {
         margin-top: 15px;
@@ -927,7 +928,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 	}
 	.container#about .content-left{
 	    top: unset !important;
-		bottom: 20%;
+		bottom: 15%;
 	}
 	.main .container:not(:nth-child(1)) .content-left h1 {
 		width: 100% !important;
