@@ -815,6 +815,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     }
     .container{
         min-height: 90vh;
+        max-height: 90vh;
     }
     #about .title-line {
         margin-top: 15px;
