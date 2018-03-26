@@ -854,7 +854,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         font-size: 23px;
         color: #04e3c1;
         float: right;
-        margin: 13px 23px 13px 10px;
+        margin: 13px 13px 13px 10px;
         display: block;
         position: absolute;
         right: 0;
@@ -867,9 +867,13 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     }
     .navbar-bars{
         display: block;
+        width: 30px;
+        text-align: center;
     }
     .navbar-close{
         display: none;
+        width: 30px;
+        text-align: center;
     }
     .main{
         width: 100%;
