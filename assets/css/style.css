@@ -153,11 +153,6 @@ a:hover, a:focus{
 #mobile-link {
     display: none;
 }
-/*.main{
-    width: 100%;
-    height: auto;
-    position: absolute;
-}*/
 .container{
     width: 100%;
     will-change: contents;
@@ -185,24 +180,7 @@ a:hover, a:focus{
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
-
-    /*background: inherit;
-    position: absolute;
-    overflow: hidden;*/
 }
-/*.container .content-left:before {
-    content: '';
-     width: 300px;
-     height: 400px;
-     background: inherit; 
-     position: absolute;
-     left: -25px;  
-     right: 0;
-     top: -25px;   
-     bottom: 0;
-     box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
-     filter: blur(10px);
-}*/
 .container#skills .content-left {
     top: 15%;
     -webkit-transform: unset;
@@ -290,9 +268,6 @@ a:hover, a:focus{
   -moz-transform: scale(0.8);
   -moz-transform-origin: 0 0;
 }
-/*#map{
-    background-color:#291f31 !important;
-}*/
 #map div{
     background-color:transparent !important;
 }
@@ -321,6 +296,12 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     width: 439px;
     word-wrap: break-word;
     color: #aaded9;
+}
+#skills .content-left a{
+    color: #63a5c7;
+}
+#skills .content-left a:href{
+    color: #549dc3;
 }
 #contact .title-line{
     margin-top: 20px;
@@ -363,11 +344,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     padding: 0 20px;
     box-sizing: border-box;
 }
-/*.contact-form input[type="text"]:focus,
-.contact-form input[type="email"]:focus{
-    outline: none;
-    border-bottom: 2px solid #fff;
-}*/
 .bar {
   position: relative;
   display: block;
@@ -431,30 +407,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-/*.required .input__field--hoshi + .input__label--hoshi::after, .required .input--filled .input__label--hoshi::after {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    border-color: red;
-}
-.input__label--hoshi::after {
-    margin-top: 2px;
-    border-bottom: 2px solid #08FDD8;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
-}
-.input__label--hoshi-color-2::after {
-    border-color: hsl(160, 100%, 50%);
-}
-.input__label--hoshi::before, .input__label--hoshi::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-}*/
 .container .content-right {
     will-change: contents;
     width: 30%;
@@ -571,11 +523,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     margin-top: -30px;
     margin-left: -30px;
     background: url(../img/loading.gif) center center no-repeat ;
-    /*-webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%*/
 }
 .magicwall .magicwall-grid {
     display: block;
@@ -628,11 +575,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     margin-left: -20px;
     background: url(../img/loading.gif) center center no-repeat ;
     background-size: cover;
-  /*  -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%*/
 }
 .magicwall li .hover-content{
     position: absolute;
@@ -650,8 +592,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     height: 100%;
 }
 .magicwall li:hover .hover-content{
-    /*background: rgba(37, 29, 43, 0);*/
-    /*background: rgba(0, 0, 0, 0);*/
     background: url('../img/glass10.png');
     cursor: pointer;
 }
@@ -767,21 +707,12 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         z-index: 3;
         min-height: 0;
     }
-    /*.navbar .menu-top a{
-        float: left;
-        margin-left: 14%;
-        line-height: 60px;
-        line-height: 60px;
-        height: 60px;
-        width: 10%;
-    }*/
     .navbar .menu-top a{
         float: left;
         margin-left: 14%;
         line-height: 60px;
         line-height: 60px;
         height: 80px;
-        /* width: 10%; */
         width: 60px;
     }
     .navbar .menu-top a:first-child {
@@ -789,7 +720,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     }
     .navbar .menu-bottom li{
         height: 40px;
-        /* right: 0; */
         float: right;
         margin-left: 0;
         margin-right: 25px;
@@ -799,9 +729,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         position: relative;
         text-decoration: none;
     }
-    /*.menu-top > li:nth-child(n+6){
-        display: none;
-    }*/
 }
 @media (max-width: 750px){
     .navbar {
@@ -816,9 +743,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     .container#skills .content-left{
         top: 5%;
     }
-    /*.full-sect {
-        padding-top: 60px;
-    }*/
     .container{
         min-height: 100%;
     }
@@ -847,9 +771,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     .navbar .menu-top li{
        /* margin-left: 10%;*/
     }
-    /*#mobile-link:hover {
-        color: #08fdd8;
-    }*/
     #mobile-link {
         font-size: 23px;
         color: #04e3c1;
@@ -881,11 +802,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     .container#home{
         height: auto;
     }
-/*  .container#about{
-        top: 120px;
-        height: calc(100% - 60px);
-        min-height: calc(100vh - 60px);
-    }*/
     .container .content-left{
         -webkit-transform: unset;
         -ms-transform: unset;
@@ -894,9 +810,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         left: 8%;
         top: 5%;      
     }
-    /*.container.home-container .content-left{
-        top: 15% !important;
-    }*/
     .container.contact-container .content-left{
         top: 35% !important; 
     }
@@ -1015,16 +928,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         bottom: 0;
         height: 100%;
     }
-    /*.content-left h1{
-        width: 100%;
-        font-size: 25px;
-        line-height: 28px;
-    }
-    .content-left p{
-        width: 100%;
-        font-size: 14px;
-        line-height: 17px;
-    }*/
     .container .content-right{
         transform: unset;
         top: unset;
