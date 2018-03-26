@@ -1009,7 +1009,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 		transform: unset;
 	    top: unset;
 	    /*bottom: 40px;*/
-        bottom: 20% !important;
+        bottom: 15% !important;
 	    width: 45%;
 	    right: 5%;
 	}
