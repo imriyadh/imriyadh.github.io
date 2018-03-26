@@ -953,7 +953,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         height: 15%;
         left: 8%;
         /*top: 140px;*/
-        top: 10%;
+        top: 5%;
         background-image: url(../img/me.png);
         background-position: 0px 0px;
         background-size: contain;
