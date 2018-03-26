@@ -815,10 +815,16 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     }
     .full-sect {
         padding-top: 60px;
+        -webkit-transition: padding-top 0.4s ease;
+        -moz-transition: padding-top 0.4s ease;
+        transition: padding-top 0.4s ease;
+    }
+    .move-down {
+        padding-top: 120px;
     }
     .container{
-        min-height: calc(100vh - 60px);
-        max-height: calc(100vh - 60px);
+        min-height: calc(100vh - 120px);
+        max-height: calc(100vh - 120px);
     }
     #about .title-line {
         margin-top: 15px;
