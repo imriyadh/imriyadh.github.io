@@ -813,6 +813,9 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         z-index: 3;
         min-height: 0;
     }
+    .container{
+        min-height: 90vh;
+    }
     #about .title-line {
         margin-top: 15px;
         margin-bottom: 20px;
