@@ -979,10 +979,13 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 	    transform: scale(0.6);
 	}
 	.container#contact{
-		min-height: 100vh
+		min-height: 100vh;
 	}
+    .container#contact .content-right{
+        bottom: 0 !important;
+    }
 	#contact .content-right{
-		bottom: 0 !important;
+		bottom: 0;
 		height: 100%;
 	}
 	/*.content-left h1{
