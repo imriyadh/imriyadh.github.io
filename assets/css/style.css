@@ -882,7 +882,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         top: 0;      
 	}
     .container.home-container .content-left{
-        top: 85px !important;
+        top: 15% !important;
     }
     .container.contact-container .content-left{
         top: 35% !important; 
@@ -982,7 +982,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 		min-height: 100vh
 	}
 	#contact .content-right{
-		bottom: 0;
+		bottom: 0 !important;
 		height: 100%;
 	}
 	/*.content-left h1{
@@ -999,7 +999,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 		transform: unset;
 	    top: unset;
 	    /*bottom: 40px;*/
-        bottom: 0 !important;
+        bottom: 20% !important;
 	    width: 45%;
 	    right: 5%;
 	}
