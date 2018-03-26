@@ -823,8 +823,9 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
         padding-top: 120px;
     }
     .container{
-        min-height: calc(100vh - 60px);
-        max-height: calc(100vh - 60px);
+        min-height: 100%;
+        margin-top: 60px;
+        position: relative;
     }
     #about .title-line {
         margin-top: 15px;
