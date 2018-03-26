@@ -203,8 +203,9 @@
         });
 
         mapm = new google.maps.Map(document.getElementById('mapm'), {
-          zoom: 9,
-      	  center: new google.maps.LatLng(-7.249409128798532, 108.12469482421875),
+          zoom: 8,
+      	  // center: new google.maps.LatLng(-7.249409128798532, 108.12469482421875),
+      	  center: new google.maps.LatLng(-7.86998528, 107.70527424),
           mapTypeId: 'roadmap',
           disableDefaultUI: true,
           // gestureHandling: 'greedy',
