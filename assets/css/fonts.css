@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?98n2uz');
+  src:  url('../fonts/icomoon.eot?98n2uz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?98n2uz') format('truetype'),
+    url('../fonts/icomoon.woff?98n2uz') format('woff'),
+    url('../fonts/icomoon.svg?98n2uz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'COCOGOOSE-UltraLight';
+  src: url('../fonts/COCOGOOSE-UltraLight.woff') format('woff'),
+       url('../fonts/COCOGOOSE-UltraLight.ttf') format('truetype'),
+       url('../fonts/COCOGOOSE-UltraLight.svg#COCOGOOSE-UltraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CooperHewitt-Thin';
+  src: url('../fonts/CooperHewitt-Thin.eot');
+  src: url('../fonts/CooperHewitt-Thin.woff2') format('woff2'),
+       url('../fonts/CooperHewitt-Thin.woff') format('woff'),
+       url('../fonts/CooperHewitt-Thin.ttf') format('truetype'),
+       url('../fonts/CooperHewitt-Thin.svg#CooperHewitt-Thin') format('svg'),
+       url('../fonts/CooperHewitt-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
