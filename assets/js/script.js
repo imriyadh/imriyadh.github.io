@@ -19,7 +19,7 @@ $('body').on('click', '.navbar-bars', function(e) {
     $(this).css({display : "none"});
     $('.navbar-close').css({display : "block"});
     $('.menu-top').addClass('show');
-    $('.fp-tableCell').addClass('move-down');
+    // $('.fp-tableCell').addClass('move-down');
     $('.sl').addClass('lc');
     $('.logo').addClass('logo-bg');
     $('.logo').removeClass('logo-tr');
@@ -32,7 +32,7 @@ $('body').on('click', '.navbar-close', function(e) {
     $(this).css({display : "none"});
     $('.navbar-bars').css({display : "block"});
     $('.menu-top').removeClass('show');
-    $('.fp-tableCell').removeClass('move-down');
+    // $('.fp-tableCell').removeClass('move-down');
     $('.sl').removeClass('lc');
     $('.logo').removeClass('logo-bg');
     $('.logo').addClass('logo-tr');
